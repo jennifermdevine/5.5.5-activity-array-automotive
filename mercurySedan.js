@@ -51,3 +51,13 @@ scheduleService(mileage){
 //You can use the same instance "v" of the Vehicle class above for the base class.
 
 //Create at least two new instances of the Car class and test them here:
+
+let dolly = new Car(Ford)
+dolly.loadPassenger(2)
+dolly.start()
+dolly.scheduleService(28953)
+
+let bruce = new Car(Ford)
+bruce.loadPassengers(4)
+bruce.start()
+bruce.scheduleService(56948)
