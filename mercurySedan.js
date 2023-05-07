@@ -1,6 +1,8 @@
 //this includes the vehicle class as a module
 const VehicleModule = require("./vehicleBaseClass")
 
+//Jennifer's Note: I am getting an error that require is not defined? But this code was pre-written for me.
+
 //this shows how to call from this module...
 let v = new VehicleModule.Vehicle("Mercury", "Sedan", "1965", "color", "mileage");
 console.log(v.make)
@@ -8,7 +10,7 @@ console.log(v.make)
 //After you write the derived Car class, you should test it out.
 
 //Note: You can code your derived Car class here or make a file named index.js and do it there.
-
+// Jennifer's Note: I decided to write it here instead of making a file named index.js! I did make an index.html to see console.logs and errors.
 //TO DO: Code the Car subclass here or in index.js file, i.e. class Car extends Vehicle ...
 
 class Car extends Vehicle {
@@ -63,3 +65,5 @@ bruce.loadPassengers(4)
 bruce.start()
 bruce.scheduleService(56948)
 console.log(bruce)
+
+//Jennifer's Note: I can't seem to get these two things to console.log ....
