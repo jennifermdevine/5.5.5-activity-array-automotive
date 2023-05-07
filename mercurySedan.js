@@ -1,7 +1,8 @@
 //this includes the vehicle class as a module
-const VehicleModule = require("./vehicleBaseClass")
+// const VehicleModule = require("./vehicleBaseClass")
+import { Vehicle } from "./vehicleBaseClass";
 
-//Jennifer's Note: I am getting an error that require is not defined? But this code was pre-written for me.
+
 
 //this shows how to call from this module...
 let v = new VehicleModule.Vehicle("Mercury", "Sedan", "1965", "color", "mileage");
