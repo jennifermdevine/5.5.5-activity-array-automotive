@@ -2,7 +2,7 @@
 // const VehicleModule = require("./vehicleBaseClass")
 import { Vehicle } from "./vehicleBaseClass";
 
-
+// made the change as suggested per discord & still getting module and import errors as before.
 
 //this shows how to call from this module...
 let v = new VehicleModule.Vehicle("Mercury", "Sedan", "1965", "color", "mileage");
